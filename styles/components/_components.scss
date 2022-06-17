@@ -18,17 +18,17 @@
 // OTHER COMPOENTS
 
 // NOTHING COMPONENT
-.home_last_mssg{
+.home_last_mssg {
   position: relative;
   border-radius: 4px;
-  background:$ff;
+  background: $ff;
   border: 1px solid $header_border;
   font-size: 14px;
   text-align: center;
   padding: 10px;
   cursor: default;
 
-  & img{
+  & img {
     position: relative;
     text-align: center;
     width: 150px;
@@ -38,7 +38,7 @@
     transform: translate(-50%);
   }
 
-  & span{
+  & span {
     position: relative;
     text-align: center;
     display: block;
@@ -56,7 +56,7 @@
 }
 
 // PAGE END
-.page_end{
+.page_end {
   padding: 10px;
   text-align: center;
   font-size: 14px;
@@ -66,25 +66,25 @@
   border-radius: 3px;
   border: 1px solid $fb;
 
-  &:hover{
+  &:hover {
     border: 1px solid $ee;
   }
 }
 
 // RECOMMENDATION TEASER
-.recomm_teaser{
+.recomm_teaser {
   @include inst;
   padding: 10px;
   margin-top: 8px;
   text-align: right;
 
-  & span{
+  & span {
     font-size: 14px;
     display: block;
     text-align: left;
   }
 
-  & a{
+  & a {
     padding: 4px 10px;
     font-weight: 600;
     display: inline-block;

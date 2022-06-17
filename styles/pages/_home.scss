@@ -1,14 +1,14 @@
 // HOME STYLES
 
 // POST IT TEASER
-.post_it{
+.post_it {
   @include inst;
   overflow: auto;
   padding: 5px 10px;
-  color: #bdbdbd;
+  color: #000000;
   font-size: 14px;
 
-  & img{
+  & img {
     width: 40px;
     height: 40px;
     position: relative;
@@ -16,12 +16,12 @@
     border-radius: 50%;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
       transform: scale(1.03);
     }
   }
 
-  & .post_teaser{
+  & .post_teaser {
     position: relative;
     float: left;
     left: 15px;
@@ -29,13 +29,13 @@
     width: 89.3%;
     height: 33px;
 
-    &::after{
+    &::after {
       content: "";
       clear: both;
       display: block;
     }
 
-    & span{
+    & span {
       position: relative;
       display: inline-block;
       width: 90%;
@@ -49,7 +49,7 @@
 }
 
 // POSTED MESSAGE
-.home_notify{
+.home_notify {
   @include inst;
   margin-top: 10px;
   padding: 13px;
@@ -58,15 +58,15 @@
   color: #3d464d;
   margin-bottom: 10px;
 
-  & img{
+  & img {
     height: 150px;
   }
 
-  & span{
+  & span {
     font-size: 14px;
   }
 
-  & a{
+  & a {
     padding: 4px 12px;
     position: absolute;
     right: 12px;
@@ -74,4 +74,3 @@
   }
 
 }
-

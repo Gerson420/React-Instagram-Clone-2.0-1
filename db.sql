@@ -25,14 +25,12 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `blocks`
 --
-
 CREATE TABLE `blocks` (
   `block_id` int(11) NOT NULL,
   `block_by` int(11) NOT NULL,
   `user` int(11) NOT NULL,
   `block_time` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Dumping data for table `blocks`
 --
